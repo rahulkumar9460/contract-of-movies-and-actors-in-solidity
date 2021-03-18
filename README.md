@@ -56,6 +56,16 @@
        actors[_id] = newActor;
    }
 ```
+## Function to associate an actor with a movie
+## This function takes actor Id and movie Id(Both are unsigned integer) as input and adds them to mapping data structure **actorToMovies** and **movieToActors**
+```
+   //function that associates an actor to a movie
+   //takes movie_id and actor_id as parameter
+   function associateActorToMovie(uint a_id, uint m_id) public {
+       actorToMovies[a_id].push(movies[m_id]);
+       movieToActors[m_id].push(actors[a_id]);
+   }
+```
 
 
    
