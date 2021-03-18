@@ -1,17 +1,7 @@
-# contract-of-movies-and-actors-in-solidity
-A smart contract that has a movie structure and a actor structure.
-Both movie and actor structure has an unique Id and an unique neme.
+# Contract-of-movies-and-actors-in-solidity
+##Built in **Remix - Ethereum IDE**
+##Deployed on **ropsten test net**
+##[Link to contract](https://ropsten.etherscan.io/address/0x40da9dade7c97816f5a621646f616b5631e3c895)
 
-   //movie structure
-   struct movie{
-       uint movie_id;
-       string movie_name;
-   }
-   
-      //actor structure
-   struct actor{
-       uint actor_id;
-       string actor_name;
-   }
    
    
