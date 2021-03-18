@@ -22,7 +22,7 @@
        string actor_name;
    }
 ```
-#### To store movies and actors **mapping** data structure was used which take key as Id and gives the corrosponding structure and also, to associate actor with a movie **"mapinng"** data structure was used which takes key as actor id and gives the list of movies associated with given actor id
+#### To store movies and actors **"mapping"** data structure was used which take key as Id(uint) and gives the corrosponding structure and also, to associate actor with a movie **"mapinng"** data structure was used which takes key as actor id(uint) and gives the list of movies associated with given actor id
 ```
    //these map will be used to get list of all movies from a actor id
    //and to get list of all actors from a movie id
