@@ -5,7 +5,7 @@
 
 ## [Link to contract](https://ropsten.etherscan.io/address/0x40da9dade7c97816f5a621646f616b5631e3c895)
 
-## > About Code
+## About Code
 #### A movie and an actor both has a unique Id and a unique name
 #### For that a movie structure and actor structure was created
 ```
