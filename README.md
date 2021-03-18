@@ -66,7 +66,19 @@
        movieToActors[m_id].push(actors[a_id]);
    }
 ```
-
+### Functions to get all movies associated with an actor ID and to get all actors associated with an movie ID
+#### These function takes ***movie id*** or ***actor id*** as input and returns list of associated movies or actors
+```
+   //function to find actors from a given movie
+   function getActorsFromMovieId(uint m_id) public view returns(actor[] memory) {
+       return movieToActors[m_id];
+   }
+   
+   //function to find movies from a given actor
+   function getMoviesFromActorId(uint a_id) public view returns(movie[] memory) {
+       return actorToMovies[a_id];
+   }
+```
 
    
    
