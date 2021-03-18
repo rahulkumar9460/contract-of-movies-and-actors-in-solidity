@@ -33,7 +33,7 @@
    mapping(uint => movie) private movies;           //to get movie structure from its id
    mapping(uint => actor) private actors;           //to get actor structure from its id
 ```
-### Functions to add actors and movies
+### ***Functions to add actors and movies***
 #### Function ***"addMovie"*** takes movie Id and movie Name as function parameters and creates a movie structure and add it to stored **"movies map"** 
 ```
    //function for adding movies
@@ -56,7 +56,7 @@
        actors[_id] = newActor;
    }
 ```
-### Function to associate an actor with a movie
+### ***Function to associate an actor with a movie***
 #### This function takes actor Id and movie Id(Both are unsigned integer) as input and adds them to mapping data structure **"actorToMovies"** and **"movieToActors"**
 ```
    //function that associates an actor to a movie
@@ -66,7 +66,7 @@
        movieToActors[m_id].push(actors[a_id]);
    }
 ```
-### Functions to get all movies associated with an actor ID and to get all actors associated with an movie ID
+### ***Functions to get all movies associated with an actor ID and to get all actors associated with an movie ID***
 #### These function takes ***movie id*** or ***actor id*** as input and returns list of associated movies or actors
 ```
    //function to find actors from a given movie
