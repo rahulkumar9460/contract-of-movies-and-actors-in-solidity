@@ -22,6 +22,7 @@
        string actor_name;
    }
 ```
+### To store movies and actors **mapping** data structure was used which take key as Id and gives the corrosponding structure
 
    
    
